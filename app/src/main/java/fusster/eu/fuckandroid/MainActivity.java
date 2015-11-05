@@ -28,7 +28,8 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void selfDestruct(View view) {
-        Methods toast = new Methods(this);
+        onClicks toast = new onClicks(this);
+        toast.selfDestruct();
     }
 
     @Override

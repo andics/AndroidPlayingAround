@@ -2,6 +2,7 @@
 
 import android.app.Activity;
 import android.content.Context;
+import android.view.View;
 import android.widget.Toast;
 
  /**
@@ -9,11 +10,13 @@ import android.widget.Toast;
   */
  public class Methods extends Activity{
      Context c;
-     public void selfDestruct(Context c) {
-         Toast.makeText(c, "sometext", Toast.LENGTH_SHORT).show();
+     public void selfDestruct() {
+         Toast.makeText(this.c, "sometext", Toast.LENGTH_SHORT).show();
+     }
+     public void connect(View view) {
+
      }
      public Methods(Context c) {
          this.c = c;
-         selfDestruct(this.c);
      }
  }

@@ -19,7 +19,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="connect" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -32,7 +33,8 @@
         android:selectAllOnFocus="true"
         android:layout_marginBottom="40dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_textbox_yellow" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -52,5 +54,17 @@
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/button"
         android:layout_alignEnd="@+id/button" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:layout_alignTop="@+id/server_address"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="268dp"
+        android:layout_marginStart="268dp" />
 
 </RelativeLayout>
