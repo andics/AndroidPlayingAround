@@ -19,6 +19,10 @@
         </activity>
         <activity android:name=".startscreen" >
         </activity>
+        <activity
+            android:name=".GameScreen"
+            android:label="@string/title_activity_game_screen" >
+        </activity>
     </application>
 
 </manifest>
