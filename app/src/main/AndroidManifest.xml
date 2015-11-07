@@ -11,17 +11,21 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".startscreen" >
         </activity>
         <activity
             android:name=".GameScreen"
             android:label="@string/title_activity_game_screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GameClient.Target"
+            android:label="@string/title_activity_target" >
         </activity>
     </application>
 

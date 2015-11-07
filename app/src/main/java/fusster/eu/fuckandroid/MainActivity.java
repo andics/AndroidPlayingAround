@@ -29,7 +29,7 @@ public class MainActivity extends ActionBarActivity {
 
     public void selfDestruct(View view) {
         onClicks toast = new onClicks(this);
-        toast.selfDestruct();
+        toast.toast("unused activity...");
     }
 
     @Override
